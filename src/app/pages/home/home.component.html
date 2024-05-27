@@ -1,0 +1,39 @@
+<div class="home-container">
+    <div class="image-section">
+      <div class="banner">
+        <p>I'm looking for..</p>
+        <div class="search-box">
+          <input type="text" placeholder="Enter Job Description.." class="search-input">
+          <button class="search-button"><i class="bi bi-search"></i>Search</button>
+        </div>
+        <div class="checkbox-container">
+          <input type="checkbox" id="Fulltime" class="checkbox-lr">
+          <label class="FT" for="Fulltime">FullTime</label>
+          <input type="checkbox" id="PartTime" class="checkbox-lr">
+          <label class="PT" for="PartTime">PartTime/ Casual/ Freelancer</label>
+          <input type="text" placeholder="Search Your Location" class="search-input-location search-location">
+      </div>
+      
+        <div class="register">
+          <button class="register-button" (click)="openRegisterModal()">Register</button>
+        </div>
+      </div>
+    </div>
+    <div class="content-section">
+      <p class="leaders">We're leaders in</p>
+      <h4>Creative Digital Recruitment</h4>
+      <hr class="blue-line">
+      <p class="text">Being in Surry Hills, the creative hub of Sydney, we are surrounded by creativity and
+        <br> that reflects on the type of jobs we recruit for.</p>
+      <div class="more-us">
+      <button class="more">Find Out More About Us</button>
+    </div>
+    </div>
+    <div class="black">
+        <p class="text">Suscribe to our Job Seeker Mail List </p>
+        <button class="mail">Enter Your Email Address</button>
+    </div>
+    
+    <app-register></app-register>
+  </div>
+  

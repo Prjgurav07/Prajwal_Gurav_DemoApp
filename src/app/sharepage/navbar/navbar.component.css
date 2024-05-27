@@ -1,0 +1,30 @@
+.navbar-background-image{
+    background-image: url('../../../assets/img/bannerimg.jpg');
+    background-position: top;
+    opacity: 0.5;
+}
+ 
+.navbar-nav .nav-link{
+    height: 100px;
+    padding-top: 50px;
+    color: white;
+     
+}
+.navbar-nav .nav-link:hover{
+    color: white;
+    
+}
+.navbar-nav .nav-link:hover::before {
+    content: '';
+    position: absolute;
+    width: 4%;
+    height: 2px; 
+    background-color: #007bff; 
+    top: 50px;
+    
+  }
+.navbar-brand{
+    background-color: #ffffff; 
+    padding: 10px;
+    margin-right: 100px;
+}

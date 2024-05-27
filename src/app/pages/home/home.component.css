@@ -1,0 +1,164 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    height: 170vh;
+        
+}
+
+.image-section {
+    flex:5; 
+    background: url('../../../assets/img/bannerimg.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.5;
+    color: white;
+    
+}
+.banner{
+    
+    position: relative;
+    top: 100px;
+    left: 300px;
+}
+
+.banner p {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+.search-input {
+    border: none;
+    outline: none;
+    padding: 7px;
+    font-style: italic;
+    font-size: 12px;
+    height: 30px;
+    width: 400px;
+    border-radius: 4px;
+}
+
+.search-button {
+    border: none;
+    outline: none;
+    font-size: 12px;
+    font-style: italic;
+    align-items: center;
+    margin-left: 10px;
+    padding: 5px 20px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    height: 30px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center; 
+}
+
+.checkbox-lr {
+    margin-top: 15px;
+    margin-right: 5px; 
+}
+
+.search-input-location {
+    margin-top: 15px;
+    margin-left: 120px; 
+    font-style: italic;
+    font-size: 10px;
+}
+
+.FT{
+    font-style: italic;
+    font-size: 7px;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+.PT {
+    font-style: italic;
+    font-size: 7px;
+    margin-top: 15px;
+}
+.register{
+    
+    position: relative;
+    top: 70px;
+    left: 200px;
+}
+
+.register-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    
+}
+
+.content-section {
+    flex: 3; 
+    background-color:rgb(235, 232, 232);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.leaders{
+    margin-top: 20px;
+    font-style: italic;
+    color: gray;
+}
+.blue-line{
+    border: none;
+    border-top: 5px solid blue;
+    width: 70px;
+    margin-top: 20px;
+    margin-left: 500px;
+}
+.text{
+    font-size: 10px;
+    color: gray;
+}
+
+.more {
+    height: 30px;
+    width: 200px;
+    border-color: rgb(24, 204, 228);
+    margin-bottom: 10px;
+    color: rgb(33, 206, 236);
+    
+}
+
+
+.black{
+    flex: 2;
+    text-align: center;
+    background-color: black;
+}
+.text{
+    margin-top: 40px;
+}
+.mail{
+    border-color: rgb(16, 162, 230);
+    color: white;
+    background-color: black;
+    font-size: 10px;
+    font-style: italic;
+    height: 30px;
+    width: 200px;
+    padding-left: 0px;
+}

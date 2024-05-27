@@ -1,0 +1,39 @@
+h5 {
+    color: rgb(73, 190, 236);
+    margin: 50px 200px 30px 30px;
+}
+.section {
+    display: flex;
+    height: 900px;
+
+  }
+.image-section {
+    margin: 0px 50px 10px 30px ;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+.content-section {
+    margin: 0px 0px 10px 50px ;
+    width: 70%; 
+    
+    
+  }
+.button {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px 20px 0px;
+}
+.photo  {
+    height: 30px;
+    width: 70px;
+    background-color: yellow;
+    margin-right: 70px;
+    margin-left: 20px;
+}
+.pro{
+    height: 30px;
+    width: 70px;
+    background-color: yellow;
+}

@@ -1,0 +1,21 @@
+.footer {
+    overflow: hidden;
+    position: sticky;
+    top: 100%;
+    background-color: cornsilk;
+    padding: 20px 10px;
+    height: 70px;
+}
+.mail{
+    color: aqua;
+    padding-left: 40px;
+}
+.search{
+    height: 20px;
+    width: 150px;
+}
+.end{
+    font-size: 10px;
+    padding-left: 40px;
+    padding-top: 5px;
+}
